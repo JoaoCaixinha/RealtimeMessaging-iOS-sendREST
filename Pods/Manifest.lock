@@ -1,0 +1,13 @@
+PODS:
+  - RealtimeMessaging-iOS (2.1.20):
+    - SocketRocket (~> 0.3.1-beta2)
+  - SocketRocket (0.3.1-beta2)
+
+DEPENDENCIES:
+  - RealtimeMessaging-iOS
+
+SPEC CHECKSUMS:
+  RealtimeMessaging-iOS: 2c6b5cb318fbf86f12c2239ac7c461a960060b0f
+  SocketRocket: 7284ab9370a06c99aba92b2fe3a32aedd0f9a6fa
+
+COCOAPODS: 0.39.0

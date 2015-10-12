@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07762408C8F2DD05033B48D18C2A6EB3 /* NSData+SRB64Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 341FC3B9D6EF1536E384A26CE11BDC09 /* NSData+SRB64Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17B7710D4991E2190BA2A3DF04B04B72 /* Balancer.h in Headers */ = {isa = PBXBuildFile; fileRef = A8323AEABAEFA7ACB5094341786E6228 /* Balancer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AA3D0C03F6F4D87DF6411773624D795 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = A73742F58EA8245C1893033CBFC43C1C /* base64.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		332F5009DFE3D7B3304A576C0B972FF3 /* OrtcClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7874DBE778CF9C4008B0666714AE30EC /* OrtcClient.m */; };
+		499334664D46CF319E66BAD6DE94506B /* RealtimeMessaging-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072C217E2595969B9BC8140DA3DB609 /* RealtimeMessaging-iOS-dummy.m */; };
+		61D0FE308E7E1F0C65E119B836130F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */; };
+		8392E2027D176DBF45CC9DD96F48ACA3 /* RealtimePushAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C444DFE2563FA3B01B59B4C6CA86276E /* RealtimePushAppDelegate.m */; };
+		875EC2D8DC782C3D35ED24BDC556DDCF /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE23C8AFC1EA6DDEB633ED575191FCD /* SocketRocket-dummy.m */; };
+		8CE906229B200D181D116936B3D09D3F /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CCB13B720C8ABFB28E8CD4CEFCB194 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53FF763C178A08EC56A9E47BA3D199C /* OrtcClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DA79252EAF321F514E06669EF5BEF59B /* OrtcClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACF754BF55CD2E22B02140C764C2D2A9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED316EE84B1D3AAE415457D92E62A3A0 /* CFNetwork.framework */; };
+		C0E533218A5E628A57CD1729FA4E8AF6 /* Balancer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E201CE1447F3B62CE0E9542AE27A88 /* Balancer.m */; };
+		CC4A7740C721E26F5DEC642941489FB6 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D9614075DDE8437AD40FE7D9E6AF36 /* SRWebSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9C67A447CD83EE8488EA1AAD35D0031 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */; };
+		DA87B8E840AE521370262477DC9F2F4B /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8FD3EC01A5B26C6E0F0C2D5B50E54D /* base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E17EB38559EB7F705647FDF2C03B84FD /* Pods-Ortc-iOS-Send-Rest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C98018731DBD7A06830E4F91B716AFD /* Pods-Ortc-iOS-Send-Rest-dummy.m */; };
+		E24B53ECC394C633B62AD3AF9ECBA9A3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E967D042C48D5885583D70105EF16526 /* Security.framework */; };
+		E525AD5F4CB7AD34C70476A0AAF83F41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */; };
+		F219CDA6DC48D934B108F9D178A03175 /* RealtimePushAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CAE51CBAD1081BC4466DDA19DF98DC2 /* RealtimePushAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F67DF2BA122C9441BD9A0D98EE756641 /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CBD7C95E2D2D000B1F0943DF6ADCB1 /* NSData+SRB64Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		584126E2A4CE2DA4C0C36AF357976C69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A49C9FB8D59C929243E1DA32300216;
+			remoteInfo = SocketRocket;
+		};
+		B4636CB178FF6B6F80DDEDB12E85B672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A49C9FB8D59C929243E1DA32300216;
+			remoteInfo = SocketRocket;
+		};
+		F723F2DEDF160E429D80F40C4434F8FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AF0DB86D2B34E4CA76B148EFF7FECC9;
+			remoteInfo = "RealtimeMessaging-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015D4914B979E71DA86A1C8A5736756B /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1072C217E2595969B9BC8140DA3DB609 /* RealtimeMessaging-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealtimeMessaging-iOS-dummy.m"; sourceTree = "<group>"; };
+		15CCB13B720C8ABFB28E8CD4CEFCB194 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		17C8F4C0BFB37C0AE7011EFF380842F2 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		1D8FD3EC01A5B26C6E0F0C2D5B50E54D /* base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = base64.h; path = SocketRocket/base64.h; sourceTree = "<group>"; };
+		25E201CE1447F3B62CE0E9542AE27A88 /* Balancer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Balancer.m; path = Pod/Classes/OrtcClient/Balancer.m; sourceTree = "<group>"; };
+		2B9E5EA6B4CD9F88681EB5FE627D6BCE /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		327923D86AD9B0CF731E9260617A34C6 /* Pods-Ortc-iOS-Send-Rest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ortc-iOS-Send-Rest-resources.sh"; sourceTree = "<group>"; };
+		341FC3B9D6EF1536E384A26CE11BDC09 /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SRB64Additions.h"; path = "SocketRocket/NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		34A1F0B2DB065356959327B484EF4509 /* Pods-Ortc-iOS-Send-Rest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ortc-iOS-Send-Rest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		425124E68E7DC3563D1DB3E977514C86 /* RealtimeMessaging-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RealtimeMessaging-iOS.xcconfig"; sourceTree = "<group>"; };
+		4C98018731DBD7A06830E4F91B716AFD /* Pods-Ortc-iOS-Send-Rest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ortc-iOS-Send-Rest-dummy.m"; sourceTree = "<group>"; };
+		51036755410E733A638D87F26C2D9BA3 /* Pods-Ortc-iOS-Send-Rest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ortc-iOS-Send-Rest.debug.xcconfig"; sourceTree = "<group>"; };
+		6E5CB551CFE69BDE24EB0B59826C16F0 /* libPods-Ortc-iOS-Send-Rest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ortc-iOS-Send-Rest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7874DBE778CF9C4008B0666714AE30EC /* OrtcClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OrtcClient.m; path = Pod/Classes/OrtcClient/OrtcClient.m; sourceTree = "<group>"; };
+		7FE23C8AFC1EA6DDEB633ED575191FCD /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		92B280A342821A0D3A49ED85DDF04702 /* RealtimeMessaging-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealtimeMessaging-iOS-prefix.pch"; sourceTree = "<group>"; };
+		94D9614075DDE8437AD40FE7D9E6AF36 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		9CAE51CBAD1081BC4466DDA19DF98DC2 /* RealtimePushAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RealtimePushAppDelegate.h; path = Pod/Classes/OrtcClient/RealtimePushAppDelegate.h; sourceTree = "<group>"; };
+		A0CBD7C95E2D2D000B1F0943DF6ADCB1 /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SRB64Additions.m"; path = "SocketRocket/NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		A73742F58EA8245C1893033CBFC43C1C /* base64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = base64.c; path = SocketRocket/base64.c; sourceTree = "<group>"; };
+		A8323AEABAEFA7ACB5094341786E6228 /* Balancer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Balancer.h; path = Pod/Classes/OrtcClient/Balancer.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C444DFE2563FA3B01B59B4C6CA86276E /* RealtimePushAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RealtimePushAppDelegate.m; path = Pod/Classes/OrtcClient/RealtimePushAppDelegate.m; sourceTree = "<group>"; };
+		CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA79252EAF321F514E06669EF5BEF59B /* OrtcClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OrtcClient.h; path = Pod/Classes/OrtcClient/OrtcClient.h; sourceTree = "<group>"; };
+		E5C8F9CBF6133332DE01AB0BE43F1FC6 /* Pods-Ortc-iOS-Send-Rest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ortc-iOS-Send-Rest.release.xcconfig"; sourceTree = "<group>"; };
+		E967D042C48D5885583D70105EF16526 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		ECC39E90BCDF5397319F6B5D98AA69F8 /* Pods-Ortc-iOS-Send-Rest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ortc-iOS-Send-Rest-frameworks.sh"; sourceTree = "<group>"; };
+		ED316EE84B1D3AAE415457D92E62A3A0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		F4FCC07716F1B95AF4FC7F15F22F88C6 /* Pods-Ortc-iOS-Send-Rest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ortc-iOS-Send-Rest-acknowledgements.plist"; sourceTree = "<group>"; };
+		F56B83C8B9D64A5542F8982DE08A5B49 /* libRealtimeMessaging-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRealtimeMessaging-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E204021A1F88E0D8EFF8760C580DA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C67A447CD83EE8488EA1AAD35D0031 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A8BCFE80703C5987DE6C50A515F62A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF754BF55CD2E22B02140C764C2D2A9 /* CFNetwork.framework in Frameworks */,
+				61D0FE308E7E1F0C65E119B836130F25 /* Foundation.framework in Frameworks */,
+				E24B53ECC394C633B62AD3AF9ECBA9A3 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E444B9D24B06DAFBD23B0338852AA68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E525AD5F4CB7AD34C70476A0AAF83F41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0087245B65AA31F6239ABFE2BE3A7C74 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				A73742F58EA8245C1893033CBFC43C1C /* base64.c */,
+				1D8FD3EC01A5B26C6E0F0C2D5B50E54D /* base64.h */,
+				341FC3B9D6EF1536E384A26CE11BDC09 /* NSData+SRB64Additions.h */,
+				A0CBD7C95E2D2D000B1F0943DF6ADCB1 /* NSData+SRB64Additions.m */,
+				15CCB13B720C8ABFB28E8CD4CEFCB194 /* SRWebSocket.h */,
+				94D9614075DDE8437AD40FE7D9E6AF36 /* SRWebSocket.m */,
+				602722DD9AA8D11305AED0431EB20DBB /* Support Files */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B728418FA3338AB680410C5B26CF547F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		206BFEAB18855D568CD888B2CE285C3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42AEEE5452F5ABE332B596202B0DDF25 /* RealtimeMessaging-iOS */,
+				0087245B65AA31F6239ABFE2BE3A7C74 /* SocketRocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42AEEE5452F5ABE332B596202B0DDF25 /* RealtimeMessaging-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A8323AEABAEFA7ACB5094341786E6228 /* Balancer.h */,
+				25E201CE1447F3B62CE0E9542AE27A88 /* Balancer.m */,
+				DA79252EAF321F514E06669EF5BEF59B /* OrtcClient.h */,
+				7874DBE778CF9C4008B0666714AE30EC /* OrtcClient.m */,
+				9CAE51CBAD1081BC4466DDA19DF98DC2 /* RealtimePushAppDelegate.h */,
+				C444DFE2563FA3B01B59B4C6CA86276E /* RealtimePushAppDelegate.m */,
+				4A8461DFA4E8F9F83234E5AD9642020A /* Support Files */,
+			);
+			path = "RealtimeMessaging-iOS";
+			sourceTree = "<group>";
+		};
+		4A8461DFA4E8F9F83234E5AD9642020A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				425124E68E7DC3563D1DB3E977514C86 /* RealtimeMessaging-iOS.xcconfig */,
+				1072C217E2595969B9BC8140DA3DB609 /* RealtimeMessaging-iOS-dummy.m */,
+				92B280A342821A0D3A49ED85DDF04702 /* RealtimeMessaging-iOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RealtimeMessaging-iOS";
+			sourceTree = "<group>";
+		};
+		602722DD9AA8D11305AED0431EB20DBB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B9E5EA6B4CD9F88681EB5FE627D6BCE /* SocketRocket.xcconfig */,
+				7FE23C8AFC1EA6DDEB633ED575191FCD /* SocketRocket-dummy.m */,
+				17C8F4C0BFB37C0AE7011EFF380842F2 /* SocketRocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				206BFEAB18855D568CD888B2CE285C3A /* Pods */,
+				927D5A46E1188D9DFAD6827A6B10564A /* Products */,
+				A3EFB5B6085F779A5F0E5000257209DD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		927D5A46E1188D9DFAD6827A6B10564A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5CB551CFE69BDE24EB0B59826C16F0 /* libPods-Ortc-iOS-Send-Rest.a */,
+				F56B83C8B9D64A5542F8982DE08A5B49 /* libRealtimeMessaging-iOS.a */,
+				015D4914B979E71DA86A1C8A5736756B /* libSocketRocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3EFB5B6085F779A5F0E5000257209DD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6CF378653EC7FCFB03320CE9518606F /* Pods-Ortc-iOS-Send-Rest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B728418FA3338AB680410C5B26CF547F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ED316EE84B1D3AAE415457D92E62A3A0 /* CFNetwork.framework */,
+				CBC51718377FC85475D865A171A8B5CC /* Foundation.framework */,
+				E967D042C48D5885583D70105EF16526 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6CF378653EC7FCFB03320CE9518606F /* Pods-Ortc-iOS-Send-Rest */ = {
+			isa = PBXGroup;
+			children = (
+				34A1F0B2DB065356959327B484EF4509 /* Pods-Ortc-iOS-Send-Rest-acknowledgements.markdown */,
+				F4FCC07716F1B95AF4FC7F15F22F88C6 /* Pods-Ortc-iOS-Send-Rest-acknowledgements.plist */,
+				4C98018731DBD7A06830E4F91B716AFD /* Pods-Ortc-iOS-Send-Rest-dummy.m */,
+				ECC39E90BCDF5397319F6B5D98AA69F8 /* Pods-Ortc-iOS-Send-Rest-frameworks.sh */,
+				327923D86AD9B0CF731E9260617A34C6 /* Pods-Ortc-iOS-Send-Rest-resources.sh */,
+				51036755410E733A638D87F26C2D9BA3 /* Pods-Ortc-iOS-Send-Rest.debug.xcconfig */,
+				E5C8F9CBF6133332DE01AB0BE43F1FC6 /* Pods-Ortc-iOS-Send-Rest.release.xcconfig */,
+			);
+			name = "Pods-Ortc-iOS-Send-Rest";
+			path = "Target Support Files/Pods-Ortc-iOS-Send-Rest";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3DC292F7A5FAE9B3AC6E27EEAB390C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA87B8E840AE521370262477DC9F2F4B /* base64.h in Headers */,
+				07762408C8F2DD05033B48D18C2A6EB3 /* NSData+SRB64Additions.h in Headers */,
+				8CE906229B200D181D116936B3D09D3F /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5ACCCB5259582553BA4168A532CD79A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B7710D4991E2190BA2A3DF04B04B72 /* Balancer.h in Headers */,
+				A53FF763C178A08EC56A9E47BA3D199C /* OrtcClient.h in Headers */,
+				F219CDA6DC48D934B108F9D178A03175 /* RealtimePushAppDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		039C430B42F5B46EB420C0F980F42ABE /* Pods-Ortc-iOS-Send-Rest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9267050C1AE389DDF700247079D89F5 /* Build configuration list for PBXNativeTarget "Pods-Ortc-iOS-Send-Rest" */;
+			buildPhases = (
+				2E7456B1B788DD2D3313BBEDB3A103D0 /* Sources */,
+				5E204021A1F88E0D8EFF8760C580DA38 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A4CEB2AA9AD22B7134E5D2A2318C0F9 /* PBXTargetDependency */,
+				4729C1ADD685A7D1ACD88CBF6731A24B /* PBXTargetDependency */,
+			);
+			name = "Pods-Ortc-iOS-Send-Rest";
+			productName = "Pods-Ortc-iOS-Send-Rest";
+			productReference = 6E5CB551CFE69BDE24EB0B59826C16F0 /* libPods-Ortc-iOS-Send-Rest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2AF0DB86D2B34E4CA76B148EFF7FECC9 /* RealtimeMessaging-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A427464873B57E2FEF62ACC11D71699C /* Build configuration list for PBXNativeTarget "RealtimeMessaging-iOS" */;
+			buildPhases = (
+				50F6B580DF59090104EDB3B52450429C /* Sources */,
+				E444B9D24B06DAFBD23B0338852AA68C /* Frameworks */,
+				F5ACCCB5259582553BA4168A532CD79A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E611556ACDB2C9D88BC72C53F7B2BF8E /* PBXTargetDependency */,
+			);
+			name = "RealtimeMessaging-iOS";
+			productName = "RealtimeMessaging-iOS";
+			productReference = F56B83C8B9D64A5542F8982DE08A5B49 /* libRealtimeMessaging-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		99A49C9FB8D59C929243E1DA32300216 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EACC9683D243044BFF5B66B22660891 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				8749B353663851AFC078274EF7EC517C /* Sources */,
+				92A8BCFE80703C5987DE6C50A515F62A /* Frameworks */,
+				C3DC292F7A5FAE9B3AC6E27EEAB390C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 015D4914B979E71DA86A1C8A5736756B /* libSocketRocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 927D5A46E1188D9DFAD6827A6B10564A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				039C430B42F5B46EB420C0F980F42ABE /* Pods-Ortc-iOS-Send-Rest */,
+				2AF0DB86D2B34E4CA76B148EFF7FECC9 /* RealtimeMessaging-iOS */,
+				99A49C9FB8D59C929243E1DA32300216 /* SocketRocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E7456B1B788DD2D3313BBEDB3A103D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17EB38559EB7F705647FDF2C03B84FD /* Pods-Ortc-iOS-Send-Rest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F6B580DF59090104EDB3B52450429C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E533218A5E628A57CD1729FA4E8AF6 /* Balancer.m in Sources */,
+				332F5009DFE3D7B3304A576C0B972FF3 /* OrtcClient.m in Sources */,
+				499334664D46CF319E66BAD6DE94506B /* RealtimeMessaging-iOS-dummy.m in Sources */,
+				8392E2027D176DBF45CC9DD96F48ACA3 /* RealtimePushAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8749B353663851AFC078274EF7EC517C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA3D0C03F6F4D87DF6411773624D795 /* base64.c in Sources */,
+				F67DF2BA122C9441BD9A0D98EE756641 /* NSData+SRB64Additions.m in Sources */,
+				875EC2D8DC782C3D35ED24BDC556DDCF /* SocketRocket-dummy.m in Sources */,
+				CC4A7740C721E26F5DEC642941489FB6 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A4CEB2AA9AD22B7134E5D2A2318C0F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RealtimeMessaging-iOS";
+			target = 2AF0DB86D2B34E4CA76B148EFF7FECC9 /* RealtimeMessaging-iOS */;
+			targetProxy = F723F2DEDF160E429D80F40C4434F8FD /* PBXContainerItemProxy */;
+		};
+		4729C1ADD685A7D1ACD88CBF6731A24B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 99A49C9FB8D59C929243E1DA32300216 /* SocketRocket */;
+			targetProxy = B4636CB178FF6B6F80DDEDB12E85B672 /* PBXContainerItemProxy */;
+		};
+		E611556ACDB2C9D88BC72C53F7B2BF8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 99A49C9FB8D59C929243E1DA32300216 /* SocketRocket */;
+			targetProxy = 584126E2A4CE2DA4C0C36AF357976C69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E87CCB4FD973EBA4123AE197559550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 425124E68E7DC3563D1DB3E977514C86 /* RealtimeMessaging-iOS.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RealtimeMessaging-iOS/RealtimeMessaging-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4E0CBFB91F781473550EC1716EA6EE6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C8F9CBF6133332DE01AB0BE43F1FC6 /* Pods-Ortc-iOS-Send-Rest.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		517652AD2C867E190952C361E58F61EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51036755410E733A638D87F26C2D9BA3 /* Pods-Ortc-iOS-Send-Rest.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		72CCBD8FE52A5C6623D862A71C34B0D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B9E5EA6B4CD9F88681EB5FE627D6BCE /* SocketRocket.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF33628139A30CD698B858D0B899CDD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 425124E68E7DC3563D1DB3E977514C86 /* RealtimeMessaging-iOS.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RealtimeMessaging-iOS/RealtimeMessaging-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E3A940B1321F7EEDB5515E2151BE2198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B9E5EA6B4CD9F88681EB5FE627D6BCE /* SocketRocket.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EACC9683D243044BFF5B66B22660891 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CCBD8FE52A5C6623D862A71C34B0D6 /* Debug */,
+				E3A940B1321F7EEDB5515E2151BE2198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A427464873B57E2FEF62ACC11D71699C /* Build configuration list for PBXNativeTarget "RealtimeMessaging-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF33628139A30CD698B858D0B899CDD5 /* Debug */,
+				00E87CCB4FD973EBA4123AE197559550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9267050C1AE389DDF700247079D89F5 /* Build configuration list for PBXNativeTarget "Pods-Ortc-iOS-Send-Rest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517652AD2C867E190952C361E58F61EF /* Debug */,
+				4E0CBFB91F781473550EC1716EA6EE6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
